@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&display=swap');
+.carousel {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.carousel .carousel {
+  width: 100%;
+}
+.carousel .carousel-inner {
+  width: 100%;
+  height: 100%;
+}
+.carousel .carousel-item {
+  width: 100%;
+  height: 100%;
+}
+.carousel .carouselImg {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.brandtitle{
+  font-family: 'Comforter', cursive;
+}
+.navmargin{
+  margin-left:68%;
+}
+.background-radial-gradient {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://images.unsplash.com/photo-1468322638156-074863f9362e?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=870&q=80');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#radius-shape-1 {
+  height: 220px;
+  width: 220px;
+  top: -60px;
+  left: -130px;
+  background: radial-gradient(#44006B, #AD1FFF);
+  overflow: hidden;
+}
+#radius-shape-2 {
+  border-radius: 38% 62% 63% 37% / 70% 33% 67% 30%;
+  bottom: -60px;
+  right: -110px;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(#44006B, #AD1FFF);
+  overflow: hidden;
+}
+.bg-glass {
+  background-color: hsl(0, 0%, 100%) !important;
+  backdrop-filter: saturate(200%) blur(25px);
+}
+.background-radial-gradient-user{
+  width: 100vw;
+  height: 100vh;
+  background-image: url('https://sheshaayurveda.com/wp-content/uploads/2021/01/A35-1-min-1-scaled-768x512.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/* .bg-glass{
+background: rgba(255, 255, 255, 0.14);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.15);
+} */
+.cardmargin{
+  margin-left:16%;
+}
+.a-color {
+  color:hsl(26, 79%, 79%); /* Set the desired color */
+  text-decoration: none; /* Remove the default underline */
+}
+.productcarouselmargin{
+  margin-bottom: -15%;
+  margin-top: 4%;
+}
+.searchmargin{
+  margin-left: 46%;
+  margin-right: -2%;
+}
+.margin-2{
+  margin-left: 2rem;
+}
+.rating {
+
+  display: inline-block;
+
+}
+.rating input {
+
+  display: none;
+
+}
+.rating label {
+
+  float: right;
+
+  cursor: pointer;
+
+  color: #ccc;
+
+}
+.rating label:before {
+
+  content: '\2605';
+
+  padding: 5px;
+
+}
+.rating input:checked ~ label,
+
+.rating input:checked ~ label ~ label {
+
+  color: #ffca08;
+
+}
+.img-fluid {
+
+  max-width: 100%;
+
+  height: 100%;
+
+}
+.button-margin{
+  margin-left: .12rem;
+}
+.product-deatil-margin{
+  margin-top: 7%;
+}
+.user-profile-margin{
+ margin-top: 5% ;
+}
+.margin-add{
+  margin-left: 78%;
+}
